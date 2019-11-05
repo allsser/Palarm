@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Palarm</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">test</string>
+
+    <string name="title_alarm">Alarm</string>
+    <string name="title_alarm_map_add">AlarmMap</string>
+    <string name="title_repeat">repeat</string>
+    <string name="title_none">none</string>
+    <string name="title_vibrate">vibrate</string>
+    <string name="title_alarm_name">Alarm Name</string>
+    <string name="title_delete">Delete</string>
+
+</resources>
