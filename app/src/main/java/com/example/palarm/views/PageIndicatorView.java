@@ -10,7 +10,6 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.afollestad.aesthetic.Aesthetic;
 import com.example.palarm.interfaces.Subscribblable;
-import com.example.palarm.utils.DimenUtils;
 
 import io.reactivex.disposables.Disposable;
 

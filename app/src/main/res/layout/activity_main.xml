@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Main View는 CoordinatorLayout이 담당-->
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<me.jfenn.alarmio.views.FragmentLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <!--Toolbar와 TabLayout등을 담을 수 있다.-->
-<com.google.android.material.appbar.AppBarLayout
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:theme="@style/AppTheme.AppBarOverlay">\
-
-<!-- AppBarLayout레이아웃에 정의하는 behavior정의에 따라서 움직임 -->
-<com.google.android.material.tabs.TabLayout
-    android:id="@+id/tabs"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="?attr/colorPrimary" />
-</com.google.android.material.appbar.AppBarLayout>
-
-<androidx.viewpager.widget.ViewPager
-android:id="@+id/view_pager"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-app:layout_behavior="@string/appbar_scrolling_view_behavior" />
-
-    <!-- ViewPager와는 무관하게 동작 -->
-<com.google.android.material.floatingactionbutton.FloatingActionButton
-android:id="@+id/fab"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_gravity="bottom|end"
-android:layout_margin="@dimen/fab_margin"
-app:srcCompat="@android:drawable/ic_dialog_email" />
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    tools:layout="@layout/fragment_home" />
