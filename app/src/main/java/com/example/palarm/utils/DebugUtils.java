@@ -9,7 +9,7 @@ public class DebugUtils {
 
     private static final String[] SETUP_TASKS = {
             "com.example.palarm.utils.LeakCanaryTask",
-            "com.example.palarm.utils.CrasherTask"
+//            "com.example.palarm.utils.CrasherTask"
     };
 
     /**

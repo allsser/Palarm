@@ -6,7 +6,7 @@
         android:title="@string/title_alarm" />
 
     <item
-        android:id="@+id/alarm_map_add"
-        android:icon="@drawable/ic_alarm_map_add"
-        android:title="@string/title_alarm_map_add" />
+        android:id="@+id/timer"
+        android:icon="@drawable/ic_timer"
+        android:title="@string/title_set_timer" />
 </menu>

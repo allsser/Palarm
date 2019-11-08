@@ -10,8 +10,8 @@ tools:context=".activities.MainActivity">
 <!--Toolbar와 TabLayout등을 담을 수 있다.-->
 <com.google.android.material.appbar.AppBarLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:theme="@style/AppTheme.AppBarOverlay">\
+    android:layout_height="wrap_content">
+<!--    android:theme="@style/AppTheme.AppBarOverlay">-->
 
     <!-- AppBarLayout레이아웃에 정의하는 behavior정의에 따라서 움직임 -->
     <com.google.android.material.tabs.TabLayout

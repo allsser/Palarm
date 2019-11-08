@@ -8,7 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.palarm.R;
+import com.example.palarm.adapters.SoundsAdapter;
+import com.example.palarm.data.SoundData;
 import com.example.palarm.dialogs.SoundChooserDialog;
+import com.example.palarm.fragments.BasePagerFragment;
+import com.example.palarm.interfaces.SoundChooserListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,11 +22,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import me.jfenn.alarmio.R;
-import me.jfenn.alarmio.adapters.SoundsAdapter;
-import me.jfenn.alarmio.data.SoundData;
-import me.jfenn.alarmio.fragments.BasePagerFragment;
-import me.jfenn.alarmio.interfaces.SoundChooserListener;
 
 public class RingtoneSoundChooserFragment extends BaseSoundChooserFragment {
 

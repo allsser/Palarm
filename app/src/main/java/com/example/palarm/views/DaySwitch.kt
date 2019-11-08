@@ -14,6 +14,7 @@ import android.view.animation.DecelerateInterpolator
 import com.afollestad.aesthetic.Aesthetic
 import com.example.palarm.interfaces.Subscribblable
 import io.reactivex.disposables.Disposable
+import me.jfenn.androidutils.DimenUtils
 
 class DaySwitch : View, View.OnClickListener, Subscribblable {
 

@@ -37,6 +37,7 @@ import com.example.palarm.palarm
 import com.example.palarm.utils.FormatUtils
 import com.example.palarm.views.DaySwitch
 import com.example.palarm.views.ProgressLineView
+import me.jfenn.androidutils.DimenUtils
 import me.jfenn.timedatepickers.dialogs.PickerDialog
 import me.jfenn.timedatepickers.views.LinearTimePickerView
 import java.util.*

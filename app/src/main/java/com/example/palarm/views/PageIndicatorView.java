@@ -12,6 +12,7 @@ import com.afollestad.aesthetic.Aesthetic;
 import com.example.palarm.interfaces.Subscribblable;
 
 import io.reactivex.disposables.Disposable;
+import me.jfenn.androidutils.DimenUtils;
 
 
 public class PageIndicatorView extends View implements ViewPager.OnPageChangeListener, Subscribblable {
